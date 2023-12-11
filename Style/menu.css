@@ -1,0 +1,67 @@
+body{
+    background-image: url(../img/Menu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    backdrop-filter: blur(5px);
+}
+
+#menu{
+    font-family: 'Lobster', sans-serif;
+    font-size:80px;
+    color: #EBFF00;
+    position:relative;
+    margin-bottom: 60px;
+   
+}
+#main{
+    font-family: 'Lobster', sans-serif;
+    font-size: 23px;
+    color:#ED1818;
+    position:relative;
+    margin-top: 22px;
+    margin-right: 5px;
+    border-width: 5px;
+     
+}
+.card{
+    border-radius: 15px !important;
+}
+
+.card img{
+    border-radius: 15px !important;
+}
+
+.card-img-overlay{
+    position: relative;
+    backdrop-filter: blur(3px);
+}
+
+.card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.card:hover .card-img-overlay {
+    backdrop-filter: none; 
+}
+
+.card:hover .card-body {
+    background-color: transparent; 
+    color: transparent; 
+}
+
+#row{
+    margin-top: 20px;
+}
