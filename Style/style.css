@@ -1,0 +1,57 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#mos{
+    color: #B60E03;
+    font-size:200px;
+    text-align: center;
+    position: absolute;
+    font-family: 'Lobster', sans-serif;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#burgers{
+    color: #B60E03;
+    font-size:100px;
+    text-align: center;
+    position: absolute;
+    font-family: 'Lobster', sans-serif;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#desc{
+    color: #00FFD1;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    font-family: 'Lobster', sans-serif;
+    top: 78%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+
+#btn {
+    font-family: 'Lobster', sans-serif !important;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.7); 
+    background-color: rgba(145, 31, 31, 0.7);
+    border-radius: 21px;
+    margin-top: 5px;
+    margin-left: 170px;
+    
+}
+
+#btn:hover {
+    background-color: #911F1F; 
+    color: white;
+}
