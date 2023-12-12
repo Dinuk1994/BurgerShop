@@ -29,16 +29,21 @@ body{
      
 }
 .card{
-    border-radius: 15px !important;
+    border-radius: 35px !important;
+    background: transparent !important;
+
 }
 
 .card img{
-    border-radius: 15px !important;
+    border-radius: 40px !important;
+ 
 }
 
 .card-img-overlay{
     position: relative;
     backdrop-filter: blur(3px);
+    border-radius: 35px !important;
+    
 }
 
 .card-body {
@@ -46,22 +51,30 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
+    color: #fffcfc !important;
+    font-family:'Lobster', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
     text-align: center;
     transition: background-color 0.3s, color 0.3s; 
 }
 
 .card:hover .card-img-overlay {
     backdrop-filter: none; 
+    border-radius: 40px;
 }
 
 .card:hover .card-body {
     background-color: transparent; 
-    color: transparent; 
+    color: transparent !important; 
 }
 
 #row{
     margin-top: 20px;
+}
+
+.card, .card img {
+    height: 300px; 
+    width: 250px; 
+    object-fit: cover; 
 }
