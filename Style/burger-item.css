@@ -1,0 +1,67 @@
+body {
+    background-image: url(../img/itemBack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    backdrop-filter: blur(5px);
+}
+
+
+#btn {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 23px;
+    color: #ED1818;
+    position: relative;
+    margin-top: 22px;
+    margin-right: 5px;
+    border-width: 5px;
+
+}
+
+#title {
+    color: white;
+    font-size: 80px;
+    font-family: 'Aclonica', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#lbl {
+    font-family: 'Aclonica', sans-serif;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: left !important;
+}
+
+.txt{
+    font-family: 'Aclonica', sans-serif;
+    color: rgb(153, 147, 147);
+    font-size: 25px; 
+    height: 50px; 
+    margin-bottom: 30px;
+}
+
+.txtD{
+    font-family: 'Aclonica', sans-serif;
+    color: rgb(153, 147, 147);
+    font-size: 25px; 
+    height: 50px; 
+    margin-bottom: 20px;
+    width: 300px !important;
+
+}
+
+.btn-success.btnAdd {
+    font-family: 'Aclonica', sans-serif;
+    background-color: #81AD05;
+    font-size: 40px;
+    height:70px;
+    border-radius: 15px;
+   margin-top: 50px;
+}
