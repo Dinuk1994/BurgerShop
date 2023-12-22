@@ -1,0 +1,23 @@
+#btnAdd{
+    background-color:#609F39;
+}
+
+#dropDown{
+    background-color: #609F39;
+}
+
+#btnD {
+    background-color: #BB1616;
+    border: 5px;
+    margin: 5px;
+    font-family: 'Aclonica', sans-serif;
+    color: aliceblue !important;
+    border-radius: 15px;
+    padding: 10px 30px; 
+    font-size: 18px; 
+}
+
+.btn-group a {
+    color: inherit; 
+    text-decoration: none; 
+}

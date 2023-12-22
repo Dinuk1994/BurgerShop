@@ -59,3 +59,8 @@ body {
 html{
     scroll-behavior: smooth;
 }
+
+.btn-group a {
+    color: inherit; 
+    text-decoration: none; 
+}
