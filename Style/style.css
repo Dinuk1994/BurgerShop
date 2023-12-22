@@ -55,3 +55,7 @@ body {
     background-color: #911F1F; 
     color: white;
 }
+
+html{
+    scroll-behavior: smooth;
+}
