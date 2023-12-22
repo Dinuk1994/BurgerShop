@@ -1,5 +1,5 @@
 function updateTable(){
-    let itemList=JSON.parse(localStorage.getItem("pastaItem")) || [];
+    let itemList=JSON.parse(localStorage.getItem("bevItems"))||[];
     let tableBody=document.querySelector("tbody");
 
     tableBody.innerHTML="";
@@ -16,6 +16,7 @@ function updateTable(){
         cell3.textContent=element.dis;
         cell4.textContent=element.date;
     });
+
 }
 
 updateTable();

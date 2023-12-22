@@ -6,6 +6,7 @@ let date=null;
 let qty=null;
 
 function add(){
+    
     code=document.getElementById("txtCode").value;
     iName=document.getElementById("txtName").value;
     price=document.getElementById("txtPrice").value;
@@ -13,13 +14,12 @@ function add(){
     date=document.getElementById("txtExp").value;
     qty=document.getElementById("txtQty").value;
 
-    let itemList=JSON.parse(localStorage.getItem("pastaItem")) || [];
+    let itemList=JSON.parse(localStorage.getItem("chickenItem"))||[];
     itemList.push({code,iName,price,dis,date,qty});
 
-    localStorage.setItem("pastaItem",JSON.stringify(itemList));
+    localStorage.setItem("chickenItem",JSON.stringify(itemList));
 
     updateTable();
 
     return false;
-
 }

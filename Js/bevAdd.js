@@ -5,6 +5,7 @@ let dis=null;
 let date=null;
 let qty=null;
 
+
 function add(){
     code=document.getElementById("txtCode").value;
     iName=document.getElementById("txtName").value;
@@ -13,13 +14,13 @@ function add(){
     date=document.getElementById("txtExp").value;
     qty=document.getElementById("txtQty").value;
 
-    let itemList=JSON.parse(localStorage.getItem("pastaItem")) || [];
+
+    let itemList=JSON.parse(localStorage.getItem("bevItems"))||[];
     itemList.push({code,iName,price,dis,date,qty});
 
-    localStorage.setItem("pastaItem",JSON.stringify(itemList));
+    localStorage.setItem("bevItems",JSON.stringify(itemList));
 
     updateTable();
 
     return false;
-
 }

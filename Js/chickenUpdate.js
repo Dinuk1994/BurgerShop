@@ -1,5 +1,5 @@
 function updateTable(){
-    let itemList=JSON.parse(localStorage.getItem("pastaItem")) || [];
+    let itemList=JSON.parse(localStorage.getItem("chickenItem"))||[];
     let tableBody=document.querySelector("tbody");
 
     tableBody.innerHTML="";
