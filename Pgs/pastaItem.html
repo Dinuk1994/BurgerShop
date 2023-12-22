@@ -15,67 +15,69 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-1 text-center">
-                <button type="button" class="btn btn-outline-danger" id="btn">Item&nbspList</button>
+        <form action="pastaMenu.html">
+            <div class="row">
+                <div class="col-1 text-center">
+                    <button type="button" class="btn btn-outline-danger" id="btn">Item&nbspList</button>
+                </div>
+                <div class="col-lg-10 text-center" id="title">
+                    PASTA
+                </div>
             </div>
-            <div class="col-lg-10 text-center" id="title">
-                PASTA
+            <div class="row">
+                <div class="col-lg-3 col-md-12 text-center" id="lbl">
+                   Item Code    
+                </div>
+                <div class="txt col-lg-8 col-md-6 text-center" >
+                    <input class="form-control txt" type="text" placeholder="Enter Item Code" aria-label="default input example" id="txtCode">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-12 text-center" id="lbl">
-               Item Code    
+            <div class="row">
+                <div class="col-lg-3 col-md-12 text-center" id="lbl">
+                   Item Name    
+                </div>
+                <div class="col-lg-8 col-md-6 text-center" >
+                    <input class="form-control txt" type="text" placeholder="Enter Item Name" aria-label="default input example" id="txtName" >
+                </div>
             </div>
-            <div class="txt col-lg-8 col-md-6 text-center" >
-                <input class="form-control txt" type="text" placeholder="Enter Item Code" aria-label="default input example" id="txtCode">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 text-center" id="lbl">
+                   Item Price    
+                </div>
+                <div class="col-lg-8 col-md-6 text-center" >
+                    <input class="form-control txt" type="text" placeholder="Enter Item Price" aria-label="default input example" id="txtPrice">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-12 text-center" id="lbl">
-               Item Name    
+            <div class="row">
+                <div class="col-lg-3 col-md-12 text-center" id="lbl">
+                   Discount    
+                </div>
+                <div class="col-lg-8 col-md-6 text-center" >
+                    <input class="form-control txtD" type="text" placeholder="Enter Discount" aria-label="default input example" id="txtDis" >
+                </div>
             </div>
-            <div class="col-lg-8 col-md-6 text-center" >
-                <input class="form-control txt" type="text" placeholder="Enter Item Name" aria-label="default input example" id="txtName" >
+            <div class="row">
+                <div class="col-lg-3 col-md-12 text-center" id="lbl">
+                   E.X.P Date    
+                </div>
+                <div class="col-lg-8 col-md-6 text-center" >
+                    <input class="form-control txtD" type="text" placeholder="Enter Expire Date" aria-label="default input example" id="txtExp" >
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-12 text-center" id="lbl">
-               Item Price    
+            <div class="row">
+                <div class="col-lg-3 col-md-12 text-center" id="lbl">
+                   Item Qty    
+                </div>
+                <div class="col-lg-8 col-md-6 text-center" >
+                    <input class="form-control txtD" type="text" placeholder="Enter Item Quantity" aria-label="default input example" id="txtQty">
+                </div>
             </div>
-            <div class="col-lg-8 col-md-6 text-center" >
-                <input class="form-control txt" type="text" placeholder="Enter Item Price" aria-label="default input example" id="txtPrice">
+            <div class="row">
+                <div class="col-12 text-lg-end text-sm-end">
+                    <button type="button" class="btn btn-success btnAdd" onclick="add()">Add&nbsp;Items</button>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-12 text-center" id="lbl">
-               Discount    
-            </div>
-            <div class="col-lg-8 col-md-6 text-center" >
-                <input class="form-control txtD" type="text" placeholder="Enter Discount" aria-label="default input example" id="txtDis" >
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-12 text-center" id="lbl">
-               E.X.P Date    
-            </div>
-            <div class="col-lg-8 col-md-6 text-center" >
-                <input class="form-control txtD" type="text" placeholder="Enter Expire Date" aria-label="default input example" id="txtExp" >
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-12 text-center" id="lbl">
-               Item Qty    
-            </div>
-            <div class="col-lg-8 col-md-6 text-center" >
-                <input class="form-control txtD" type="text" placeholder="Enter Item Quantity" aria-label="default input example" id="txtQty">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-lg-end text-sm-end">
-                <button type="button" class="btn btn-success btnAdd" onclick="addRow()">Add&nbsp;Items</button>
-            </div>
-        </div>
+        </form>
     </div>
 
 
